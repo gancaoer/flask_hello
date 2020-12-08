@@ -1,7 +1,7 @@
 FROM python:3.7-alpine
-LABEL maintainer="153777@16.com"
+LABEL maintainer="157880@16.com"
 
-WORKDIR /code
+WORKDIR /data
 COPY app.py ./
 RUN pip install flask
 
