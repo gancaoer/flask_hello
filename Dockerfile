@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-LABEL maintainer="xxx@16.com"
+LABEL maintainer="153777@16.com"
 
 WORKDIR /code
 COPY app.py ./
